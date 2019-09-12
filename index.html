@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="./assests/css/reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
-    
-
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assests/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Chilanka|Walter+Turncoat&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   <div class="container ">
     <div class="jumbotron ">
       <div class="crystalName ">
-        <h1>Crystal Game</h1>
+        <h1 class= "title">Crystal Game</h1>
       </div>
     </div>
   </div>
@@ -41,9 +41,12 @@
           Each time the game starts it will randomize the value of each crystal.
         </p>
       </div>
-      
-      <div class=" col-xl-2 "><h4>Target Score: </h4><h2 class=" totalScore"></h2></div>
-      <div class="winLoss col-xl-2">
+
+      <div class=" col-xl-2 scoreText">
+        <h4>Target Score: </h4>
+        <h2 class=" totalScore"></h2>
+      </div>
+      <div class="winLoss winLossText col-xl-2">
         <h3>Wins: <span class="win"></span></h3>
         <h3>Losses: <span class="loss"></span></h3>
       </div>
@@ -58,10 +61,12 @@
       <img src="./assests/images/crystal 4.jpg" alt="" class="crystal crystalFour col-xl-3">
     </div>
 
-    <div class="container row col-xl-6">
+    <div class="container row col-xl-6 totalScoreText">
       <h3 class="">Your Total Score Is: </h3>
     </div>
-    <div class="container row col-xl-6 "><h3 class= "playerScore"></h3> </div>
+    <div class="container row col-xl-6 ">
+      <h3 class="playerScore"></h3>
+    </div>
   </div>
 
 

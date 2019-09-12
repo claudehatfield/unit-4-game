@@ -10,6 +10,24 @@
   height: 200px;
 }
 
-.totalScore{
+.title{
+  font-family: 'Bad Script', cursive;
+  font-size: 60px;
+}
+
+.instructions{
+  font-family: 'Chilanka', cursive;
   
+}
+
+.winLossText{
+  font-family: 'Walter Turncoat', cursive;
+}
+
+.scoreText{
+  font-family: 'Walter Turncoat', cursive;
+}
+
+.totalScoreText{
+  font-family: 'Walter Turncoat', cursive;
 }
